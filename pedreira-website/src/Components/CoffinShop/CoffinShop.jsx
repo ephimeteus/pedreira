@@ -1,8 +1,8 @@
-import SideBar from "./Sidebar";
-import Home from "./Home";
-import WhoWeAre from "./WhoWeAre";
-import Contact from "./Contact";
-import Catalog from "./Catalog";
+import SideBar from '../SideBar/SideBar'
+import Home from "../Home/Home"
+import WhoWeAre from "../WhoWeAre/WhoWeAre";
+import Contact from "../Contact/Contact";
+import Catalog from "../Catalog/Catalog";
 import './coffinShop.css'
 
 const CoffinShop = () => {
