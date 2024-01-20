@@ -8,8 +8,8 @@ const CoffinShop = () => {
   return (
     <>
         <div className="container">
+          <SideBar/>
           <div className="main-content">
-            <SideBar/>
             <Home />
             <WhoWeAre />
             <Catalog />

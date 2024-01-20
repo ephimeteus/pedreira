@@ -1,5 +1,5 @@
 import './App.css'
-import CoffinShop from './Components/gpt'
+import CoffinShop from './Components/CoffinShop'
 
 function App() {
   return (
