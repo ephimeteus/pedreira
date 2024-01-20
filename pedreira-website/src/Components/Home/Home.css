@@ -1,22 +1,25 @@
 /* Home.css */
 
-.home {
+#home {
     text-align: center;
     margin:0px;
     padding: 1rem;
+    background-image: url(C:\Users\ramir\Desktop\Hangar\cajones\pedreira\pedreira-website\src\assets\landing-background.jpg);
+    background-size:cover;
+    background-position: center;
     background-color: #f8f9fa;
   }
   
-  .home h2 {
+  #home h2 {
     color: #007bff;
   }
   
-  .home p {
+  #home p {
     color: #555;
     margin-bottom: 20px;
   }
   
-  .home button {
+  #home button {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -26,7 +29,7 @@
   }
   
   @media (min-width: 768px) {
-    .home {
+    #home {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -34,7 +37,7 @@
       height: 80vh;
     }
   
-    .home button {
+    #home button {
       font-size: 1.5rem;
     }
   }

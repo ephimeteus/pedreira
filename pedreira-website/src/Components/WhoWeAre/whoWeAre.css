@@ -1,18 +1,24 @@
 /* WhoWeAre.css */
 
-.who-we-are {
+#who-we-are {
+    display: flex;
     text-align: center;
+    justify-content: center;
     margin: 2rem;
     padding: 1rem;
     background-color: #f8f9fa;
+    display: flex;
   }
   
-  .who-we-are h2 {
+  #who-we-are h2 {
     color: #007bff;
   }
   
-  .who-we-are p {
+  #who-we-are p {
     color: #555;
     margin-bottom: 20px;
   }
   
+  #who-we-are img {
+    width: 50%;
+  }
