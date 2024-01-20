@@ -1,0 +1,41 @@
+/* Home.css */
+
+.home {
+    text-align: center;
+    margin:0px;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .home h2 {
+    color: #007bff;
+  }
+  
+  .home p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .home button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+    }
+  
+    .home button {
+      font-size: 1.5rem;
+    }
+  }
+  

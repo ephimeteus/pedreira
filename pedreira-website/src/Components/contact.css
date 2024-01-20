@@ -1,0 +1,17 @@
+/* Contact.css */
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  
+  #contact h2 {
+    color: #007bff;
+  }
+  
+  #contact p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  

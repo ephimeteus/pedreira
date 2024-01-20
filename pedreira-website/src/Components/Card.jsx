@@ -1,3 +1,5 @@
+import "./Card.css"
+
 const Card = ({ name, description, price })=> {
     return(
         <div className="card">

@@ -1,4 +1,5 @@
 import Card from "./Card";
+import "./catalog.css"
 
 const inventory = [
     { name: "Coffin 1", description: "This is the cheapest option available.", price: "100" }, 
@@ -13,7 +14,7 @@ const Catalog = () => {
                 <h2>Catalog</h2>
                 <p>Explore our catalog to find the perfect coffin for your needs.</p>
             </section>
-            <div>
+            <div className="catalog-container">
                 {inventory.map((item, index) => (
                     <div key={index}>
                         <Card name={item.name} description={item.description} price={item.price} />

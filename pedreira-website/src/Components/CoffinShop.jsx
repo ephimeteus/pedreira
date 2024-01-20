@@ -3,6 +3,7 @@ import Home from "./Home";
 import WhoWeAre from "./WhoWeAre";
 import Contact from "./Contact";
 import Catalog from "./Catalog";
+import './coffinShop.css'
 
 const CoffinShop = () => {
   return (

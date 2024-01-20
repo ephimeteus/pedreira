@@ -1,3 +1,5 @@
+import "./whoWeAre.css"
+
 const WhoWeAre = () => {
     return (
         <section className="who-we-are">

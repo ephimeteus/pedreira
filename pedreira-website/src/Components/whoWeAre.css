@@ -1,0 +1,18 @@
+/* WhoWeAre.css */
+
+.who-we-are {
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .who-we-are h2 {
+    color: #007bff;
+  }
+  
+  .who-we-are p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
