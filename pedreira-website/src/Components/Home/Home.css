@@ -2,12 +2,10 @@
 
 #home {
     text-align: center;
-    margin:0px;
-    padding: 1rem;
-    background-image: url(C:\Users\ramir\Desktop\Hangar\cajones\pedreira\pedreira-website\src\assets\landing-background.jpg);
     background-size:cover;
     background-position: center;
     background-color: #f8f9fa;
+    background-image: none;
   }
   
   #home h2 {
@@ -35,6 +33,7 @@
       align-items: center;
       justify-content: center;
       height: 80vh;
+      background-image: url(C:\Users\ramir\Desktop\Hangar\cajones\pedreira\pedreira-website\src\assets\landing-background.jpg);
     }
   
     #home button {

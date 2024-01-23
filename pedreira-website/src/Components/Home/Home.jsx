@@ -5,7 +5,7 @@ const Home = () => {
         <section id="home">
             <h2>Welcome to Coffin Shop</h2>
             <p>Your source for high-quality coffins.</p>
-            <button>Browse All</button>
+            <button>Shop Now</button>
         </section>
     )
 };

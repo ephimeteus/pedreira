@@ -1,6 +1,10 @@
+import { useState } from "react";
 import "./Card.css"
 
+
+
 const Card = ({ name, description, price })=> {
+    
     return(
         <div className="card">
             <img src="coffin1.jpg" alt="Type 1" />

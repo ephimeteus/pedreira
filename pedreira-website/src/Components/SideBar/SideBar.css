@@ -3,26 +3,23 @@
 .sidebar {
     background-color: #307dcb5b;
     color: #fff;
-    margin-right: 20px;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+   
   }
   
   .sidebar h1 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    justify-self: flex-start;
   }
   
   .sidebar ul {
-    
     list-style: none;
     padding: 0;
     margin: 0;
