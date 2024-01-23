@@ -1,6 +1,6 @@
 import SideBar from '../SideBar/SideBar'
 import Home from "../Home/Home"
-import WhoWeAre from "../WhoWeAre/WhoWeAre";
+import AboutUs from "../AboutUs/AboutUs";
 import Contact from "../Contact/Contact";
 import Catalog from "../Catalog/Catalog";
 import './coffinShop.css'
@@ -15,9 +15,9 @@ const CoffinShop = () => {
   const renderPage = () => {
     return (
     activePage === 'Home' 
-    ? <Home/>
+    ? <Home onNavClick= {handleNavClick}/>
     : activePage ==='AboutUs'
-    ? <WhoWeAre/>
+    ? <AboutUs/>
     : activePage === 'Catalog'
     ? <Catalog/>
     : activePage === 'Contact'

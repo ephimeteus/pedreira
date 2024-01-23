@@ -1,6 +1,4 @@
-/* WhoWeAre.css */
-
-#who-we-are {
+#about-us {
     display: flex;
     background-color: #f8f9fa;
     flex-wrap:wrap;
@@ -13,17 +11,17 @@
     align-items: center;
     justify-content: center;
   }
-  #who-we-are h2 {
+  #about-us h2 {
     color: #007bff;
   }
   
-  #who-we-are p {
+  #about-us p {
     color: #555;
     margin-bottom: 20px;
     max-width: 40vh;
   }
   
-  #who-we-are img {
+  #about-us img {
     max-width: 40%;
     min-width: none;
     margin-left: 2rem;

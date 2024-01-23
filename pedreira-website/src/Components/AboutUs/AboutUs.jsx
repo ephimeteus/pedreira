@@ -1,16 +1,16 @@
-import "./whoWeAre.css"
-import whoAreWeImage from '../../assets/small-girl.jpg';
+import "./AboutUs.css"
+import aboutUsImg from '../../assets/small-girl.jpg';
 
-const WhoWeAre = () => {
+const AboutUs = () => {
     return (
-        <section id="who-we-are">
+        <section id="about-us">
             <aside>
                 <h2>About us</h2>
                 <p>Learn about our company and our commitment to providing the best coffins for our customers.</p>
             </aside>
-            <img src={whoAreWeImage} alt="Who Are We Image" />
+            <img src={aboutUsImg} alt="About Us img" />
         </section>
     )
 };
 
-export default WhoWeAre;
+export default AboutUs;

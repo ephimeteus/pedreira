@@ -1,11 +1,11 @@
 import './Home.css'
 
-const Home = () => {
+const Home = ({ onNavClick }) => {
     return (
         <section id="home">
             <h2>Welcome to Coffin Shop</h2>
             <p>Your source for high-quality coffins.</p>
-            <button>Shop Now</button>
+            <button onClick={() => onNavClick('Catalog')}>Shop Now</button>
         </section>
     )
 };

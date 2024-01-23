@@ -8,31 +8,19 @@
     top: 0;
     left: 0;
     width: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-  }
+   }
   
   .sidebar h1 {
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    margin: 20px;
   }
   
   .sidebar ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
   }
   
   .sidebar li {
     margin-bottom: 10px;
-  }
-  
-  .sidebar a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
   }
   
   @media (max-width: 767px) {
