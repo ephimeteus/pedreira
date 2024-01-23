@@ -4,17 +4,33 @@ import WhoWeAre from "../WhoWeAre/WhoWeAre";
 import Contact from "../Contact/Contact";
 import Catalog from "../Catalog/Catalog";
 import './coffinShop.css'
+import { useState } from 'react';
 
 const CoffinShop = () => {
+  
+  const [ activePage, setActivePage] = useState('Home') ;
+  
+  const handleNavClick = (pageName) => setActivePage(pageName);
+  
+  const renderPage = () => {
+    return (
+    activePage === 'Home' 
+    ? <Home/>
+    : activePage ==='AboutUs'
+    ? <WhoWeAre/>
+    : activePage === 'Catalog'
+    ? <Catalog/>
+    : activePage === 'Contact'
+    ? <Contact/>
+    : null
+  )};
+
   return (
     <>
         <div className="container">
-          <SideBar/>
+          <SideBar onNavClick= {handleNavClick}/>
           <div className="main-content">
-            <Home />
-            <WhoWeAre />
-            <Catalog />
-            <Contact />
+           { renderPage() }
           </div>
         </div>
     </>
